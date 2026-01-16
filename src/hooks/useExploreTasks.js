@@ -5,7 +5,7 @@
 
 import { useCallback, useEffect, useState } from "react";
 
-const API_BASE = "http://localhost:5001/api";
+const API_BASE = "http://localhost:5002/api";
 
 export const useExploreTasks = (initialFilters = {}) => {
   const [tasks, setTasks] = useState([]);
