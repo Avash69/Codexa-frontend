@@ -1,7 +1,7 @@
 // Admin API Test Script
 // Run this in browser console or Node.js to test backend endpoints
 
-const API_BASE = "http://localhost:5001"; // Change to your backend URL
+const API_BASE = "http://localhost:5002"; // Change to your backend URL
 const TOKEN = "your-admin-token-here"; // Replace with actual admin token
 
 const testAdminAPI = async () => {
