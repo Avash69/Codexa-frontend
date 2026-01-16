@@ -9,7 +9,7 @@ This document provides comprehensive information about the backend API endpoints
 ### Base URL
 
 - **Production**: `process.env.VITE_API_URL`
-- **Development**: `http://localhost:5001`
+- **Development**: `http://localhost:5002`
 - **Port**: 5001
 
 ### Authentication
@@ -27,7 +27,7 @@ This document provides comprehensive information about the backend API endpoints
 The core HTTP client that handles all API communication.
 
 ```javascript
-export const BASE_URL = import.meta.env.VITE_API_URL || "http://localhost:5001";
+export const BASE_URL = import.meta.env.VITE_API_URL || "http://localhost:5002";
 ```
 
 #### Key Features:
@@ -532,7 +532,7 @@ if (response?.data?.users) {
 
 ```bash
 # Backend API URL
-VITE_API_URL=http://localhost:5001
+VITE_API_URL=http://localhost:5002
 
 # Optional: API timeout
 VITE_API_TIMEOUT=30000
