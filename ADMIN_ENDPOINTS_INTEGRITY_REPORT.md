@@ -96,7 +96,7 @@
 
 ### ✅ AdminAPI.js
 
-- **Base URL:** `http://localhost:5001/api`
+- **Base URL:** `http://localhost:5002/api`
 - **Authentication:** Bearer token in Authorization header
 - **Error Handling:** Proper error catching and message extraction
 - **Request Method:** Standardized request wrapper with JSON headers
