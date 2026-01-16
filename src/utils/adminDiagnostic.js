@@ -39,7 +39,7 @@ if (!user) {
 // 3. Test admin API endpoint
 console.log("\n3️⃣ TESTING ADMIN API:");
 if (token) {
-  fetch("http://localhost:5001/api/admin/check-access", {
+  fetch("http://localhost:5002/api/admin/check-access", {
     method: "GET",
     headers: {
       Authorization: `Bearer ${token}`,
