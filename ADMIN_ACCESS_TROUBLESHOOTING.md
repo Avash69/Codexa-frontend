@@ -134,7 +134,7 @@ window.location.reload();
 #### Test 3: Check API Endpoint
 
 ```javascript
-fetch("http://localhost:5001/api/admin/check-access", {
+fetch("http://localhost:5002/api/admin/check-access", {
   headers: {
     Authorization: `Bearer ${localStorage.getItem("token")}`,
     "Content-Type": "application/json",
