@@ -103,7 +103,7 @@ src/
    Create a `.env` file in the root directory:
 
    ```env
-   VITE_API_URL=http://localhost:5001
+   VITE_API_URL=http://localhost:5002
    ```
 
 4. **Start the development server**
