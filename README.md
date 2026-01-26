@@ -1,4 +1,4 @@
-# Code and Cash - Frontend
+# CodeXa - Frontend
 
 A modern React-based frontend application for a task management platform where users can create, manage, and apply for coding tasks.
 
